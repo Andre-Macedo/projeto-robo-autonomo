@@ -19,7 +19,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: url('/public/img/arduino-robot-car-front.jpg') no-repeat center center/cover;
+    background: url('https://andre-macedo.github.io/projeto-robo-autonomo/public/img/arduino-robot-car-front.jpg') no-repeat center center/cover;
     height: 100vh;
     color: white;
 }
