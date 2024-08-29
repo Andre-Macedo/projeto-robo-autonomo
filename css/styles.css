@@ -1,0 +1,295 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px; /* Adjust for fixed navbar */
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('/public/img/arduino-robot-car-front.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.125rem;
+}
+
+.btn-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+}
+
+/* Project Summary Section */
+#about {
+    background-color: #f8f9fa;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.125rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+.features-section .feature-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.features-section .feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.features-section h4 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.features-section p {
+    font-size: 1rem;
+}
+
+.features-section img {
+    max-width: 60px;
+}
+
+/* Team Section */
+.team-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.team-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.team-member {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    max-width: 200px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.team-member h4 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Swiper Container */
+.mySwiper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+/* Gradient Effect */
+.swiper-slide {
+    transition: opacity 0.5s ease;
+}
+
+.swiper-slide-active {
+    opacity: 1;
+}
+
+.swiper-slide-prev, .swiper-slide-next {
+    opacity: 0.5;
+    filter: grayscale(50%);
+}
+
+.swiper-slide-prev, .swiper-slide-next, .swiper-slide:not(.swiper-slide-active) {
+    opacity: 0.3;
+    filter: grayscale(80%);
+}
+
+/* Navigation Buttons */
+.swiper-button-next, .swiper-button-prev {
+    color: #343a40;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #007bff;
+}
+
+/* Video Teaser Section */
+.video-teaser-section {
+    background-color: #f7f9fc;
+}
+
+.video-teaser-section h2 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.embed-responsive-item {
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+}
+
+/* Gallery Section */
+.gallery-section {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery-section h2 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.gallery-section .row {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-section .col-md-4 {
+    padding: 15px;
+}
+
+.gallery-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.footer p, .footer a {
+    color: #ffffff;
+    font-size: 0.875rem;
+}
+
+.footer .social-links a {
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #adb5bd;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+/* Features Section */
+#features {
+    background: linear-gradient(135deg, #e9ecef, #f1f3f5);
+    padding: 3rem 0;
+}
+
+/* Team Section */
+#team {
+    background-color: #ffffff;
+    padding: 3rem 0;
+}
+
+/* Gallery Section */
+#gallery {
+    background: linear-gradient(135deg, #dee2e6, #ced4da);
+    padding: 3rem 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .features-section h4 {
+        font-size: 1.25rem;
+    }
+
+    .features-section p {
+        font-size: 0.875rem;
+    }
+
+    .features-section img {
+        max-width: 50px;
+    }
+}
